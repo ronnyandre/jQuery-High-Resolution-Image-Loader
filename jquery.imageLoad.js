@@ -25,3 +25,14 @@ $.fn.imageLoad = function(options) {
 	});
 	
 };
+
+/*	USAGE:
+	
+	<img src="lowres.jpg" width="600" height="600" data-highres-image="highres.jpg" />
+	
+	<script>
+	jQuery(function($){
+		$('img').imageLoad();
+	});
+	</script>
+*/
